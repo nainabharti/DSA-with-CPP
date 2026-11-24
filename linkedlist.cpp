@@ -20,7 +20,7 @@ int main(){
         }
         else{
             temp = head;
-            while(newNode -> next != NULL){
+            while(temp -> next != NULL){
                 temp = temp -> next;
             }
             temp -> next = newNode;
